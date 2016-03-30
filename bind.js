@@ -5,7 +5,7 @@
 
 var prototype = Function.prototype;
 
-var id = '';
+var id = 'bind';
 var dependencies = prototype.bind ? [] : ['./polyfill'];
 
 function factory(polyfill) {
